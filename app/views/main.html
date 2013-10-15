@@ -1,9 +1,12 @@
 <div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+  <h1>Reference Me: Links from WDI HK</h1>
+  <p>Choose your tag ...</p>
+
+  Button: 
+  <div ng-repeat="tree in tags">
+    <button ng-click="clickLink(tree)">{{tree}}</button>
+    <a href="#/categories/{{tree}}">{{tree}}</a>
+  </div>  
 </div>
+
+

@@ -7,7 +7,7 @@ angular.module('referenceMeApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/categories', {
+      .when('/categories/:selectedTagInUrl', { //note the colon
         templateUrl: 'views/categories.html',
         controller: 'CategoriesCtrl'
       })

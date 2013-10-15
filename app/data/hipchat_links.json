@@ -1,0 +1,675 @@
+var hipchatLinks = [
+  {
+    "date": "2013-09-29T06:23:34+00:00",
+    "name": null,
+    "url": "http://www.codecademy.com/tracks/javascript",
+    "tags": "Javascript"
+  },
+  {
+    "date": "2013-09-29T06:54:22+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://learnxinyminutes.com/docs/javascript/",
+    "tags": "Funny"
+  },
+  {
+    "date": "2013-09-30T01:28:05+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.quora.com/Learning-to-Program/What-is-expected-of-a-junior-back-end-web-developer",
+    "tags": "Javascript"
+  },
+  {
+    "date": "2013-09-30T04:03:23+00:00",
+    "name": "Eddie Lau",
+    "url": "http://brew.sh/"
+  },
+  {
+    "date": "2013-09-30T08:16:52+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/3dd13/yeoman_webapp_github_example"
+  },
+  {
+    "date": "2013-09-30T09:22:06+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/"
+  },
+  {
+    "date": "2013-10-01T00:51:26+00:00",
+    "name": "Bruno Wu",
+    "url": "https://github.com/gruntjs/grunt-contrib-compass"
+  },
+  {
+    "date": "2013-10-01T08:43:01+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.youtube.com/watch?v=bZUpQN_u_kk"
+  },
+  {
+    "date": "2013-10-02T01:08:14+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.sublimetext.com/docs/2/osx_command_line.html"
+  },
+  {
+    "date": "2013-10-02T01:08:32+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://hipchat-emoticons.nyh.name/"
+  },
+  {
+    "date": "2013-10-02T01:39:13+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/3dd13/yeoman_webapp_github_example/wiki/Publish-your-web-page-to-github.io"
+  },
+  {
+    "date": "2013-10-02T01:58:34+00:00",
+    "name": "Eddie Lau",
+    "url": "http://3dd13.github.io/yeoman_webapp_github_example/"
+  },
+  {
+    "date": "2013-10-02T02:29:24+00:00",
+    "name": "Eddie Lau",
+    "url": "https://sublime.wbond.net/installation"
+  },
+  {
+    "date": "2013-10-02T05:38:25+00:00",
+    "name": "Eddie Lau",
+    "url": "http://another-crowd-funding.herokuapp.com"
+  },
+  {
+    "date": "2013-10-02T08:34:09+00:00",
+    "name": "Eddie Lau",
+    "url": "https://www.pivotaltracker.com/s/projects/924186"
+  },
+  {
+    "date": "2013-10-02T09:15:01+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://i.imgur.com/qrLEV.gif"
+  },
+  {
+    "date": "2013-10-02T13:03:06+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://geoff.greer.fm/lscolors/"
+  },
+  {
+    "date": "2013-10-03T01:03:30+00:00",
+    "name": "Eddie Lau",
+    "url": "http://alistapart.com/article/sustainable-web-design?utm_content=buffer43539&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer"
+  },
+  {
+    "date": "2013-10-03T01:15:04+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.unrealengine.com/html5/"
+  },
+  {
+    "date": "2013-10-03T01:15:13+00:00",
+    "name": "Eddie Lau",
+    "url": "https://securesha.re/"
+  },
+  {
+    "date": "2013-10-03T01:15:56+00:00",
+    "name": "Eddie Lau",
+    "url": "http://threejs.org/"
+  },
+  {
+    "date": "2013-10-03T01:16:03+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.babylonjs.com/"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://lights.elliegoulding.com/"
+  },
+  {
+    "date": "2013-10-03T01:20:20+00:00",
+    "name": "Robyn Steinberg",
+    "url": "http://robss04.github.io/GA_robynsteinberg/"
+  },
+  {
+    "date": "2013-10-03T01:21:16+00:00",
+    "name": "Emily Arnett",
+    "url": "http://emarnett.github.io/github_webapp/"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "http://ruby-doc.org/core-2.0.0/"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "http://www.rubeque.com/problems"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://popapp.in/"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "http://www.omnigroup.com/omnigraffle"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://github.com/wubr2000"
+  },
+  {
+    "date": "2013-10-03T01:23:14+00:00",
+    "name": "Bruno Wu",
+    "url": "http://wubr2000.github.io/bruno_wu_profile/"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "http://jsbin.com/IVIbURE/1/edit"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://dashboard.heroku.com/apps"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://www.pivotaltracker.com/dashboard"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://galondon.hipchat.com/chat"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://www.codeschool.com/"
+  },
+  {
+    "date": "2013-10-03T01:22:53+00:00",
+    "name": "Bruno Wu",
+    "url": "https://gist.github.com/peterylai/89cb6b56062a1fd1cd0c"
+  },
+  {
+    "date": "2013-10-03T01:22:54+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://vbsiqebu.github.io/Josiah_profile/"
+  },
+  {
+    "date": "2013-10-03T01:23:55+00:00",
+    "name": "Hyejin Yang",
+    "url": "http://yytina.github.io/jin_profile/"
+  },
+  {
+    "date": "2013-10-03T01:24:16+00:00",
+    "name": "Kingsley Man",
+    "url": "http://www2.padshowoff.com/content/cropped/kingsley/"
+  },
+  {
+    "date": "2013-10-03T01:28:30+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://i.imgur.com/LR0bC9B.png"
+  },
+  {
+    "date": "2013-10-03T01:36:45+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://docs.google.com/drawings/d/1Fy6TGfLlCPFkHMX1KKCgzKYqSMIx1hdNzFql8n1tD6A/edit"
+  },
+  {
+    "date": "2013-10-03T01:36:52+00:00",
+    "name": "Robyn Steinberg",
+    "url": "https://docs.google.com/drawings/d/19FNVRS0nNoPOZkphobthQkPrFedRlgnfHkPIFBh6PP8/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-03T01:37:42+00:00",
+    "name": "Bruno Wu",
+    "url": "https://docs.google.com/drawings/d/1Op4V3CFh2tH3aFketHxJURijtxy8JtxnIxsFwaUl8yE/edit"
+  },
+  {
+    "date": "2013-10-03T01:37:56+00:00",
+    "name": "Hyejin Yang",
+    "url": "https://docs.google.com/drawings/d/161I_Nw-b2d6d6aL6X2KYPMsEmlGF4a7UycDL5MIEgZ0/edit"
+  },
+  {
+    "date": "2013-10-03T01:40:24+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://docs.google.com/drawings/d/1Fy6TGfLlCPFkHMX1KKCgzKYqSMIx1hdNzFql8n1tD6A/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-03T01:40:37+00:00",
+    "name": "Hyejin Yang",
+    "url": "https://docs.google.com/drawings/d/161I_Nw-b2d6d6aL6X2KYPMsEmlGF4a7UycDL5MIEgZ0/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-03T01:46:13+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.pivotaltracker.com/s/projects/925068"
+  },
+  {
+    "date": "2013-10-03T01:46:58+00:00",
+    "name": "Hyejin Yang",
+    "url": "https://www.pivotaltracker.com/s/projects/925168"
+  },
+  {
+    "date": "2013-10-03T01:47:14+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.pivotaltracker.com/projects/925068/settings"
+  },
+  {
+    "date": "2013-10-03T01:47:35+00:00",
+    "name": "Karen Farzam",
+    "url": "https://www.pivotaltracker.com/s/projects/925058"
+  },
+  {
+    "date": "2013-10-03T01:50:28+00:00",
+    "name": "Bruno Wu",
+    "url": "https://www.pivotaltracker.com/s/projects/925074"
+  },
+  {
+    "date": "2013-10-03T01:51:12+00:00",
+    "name": "Deepak Jayakumaran",
+    "url": "https://www.pivotaltracker.com/s/projects/925062"
+  },
+  {
+    "date": "2013-10-03T01:50:37+00:00",
+    "name": "Ian OCONNOR",
+    "url": "https://www.pivotaltracker.com/s/projects/925782"
+  },
+  {
+    "date": "2013-10-03T01:52:38+00:00",
+    "name": null,
+    "url": "https://www.pivotaltracker.com/s/projects/925060"
+  },
+  {
+    "date": "2013-10-03T02:05:11+00:00",
+    "name": "Robyn Steinberg",
+    "url": "https://www.pivotaltracker.com/s/projects/925072"
+  },
+  {
+    "date": "2013-10-07T02:09:33+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/ga-students/WDI_HK_1_Work"
+  },
+  {
+    "date": "2013-10-03T02:31:02+00:00",
+    "name": "Peter C",
+    "url": "https://www.pivotaltracker.com/s/projects/925788/"
+  },
+  {
+    "date": "2013-10-03T02:40:08+00:00",
+    "name": "Stephanie Siaw",
+    "url": "https://www.pivotaltracker.com/s/projects/925070"
+  },
+  {
+    "date": "2013-10-03T02:40:27+00:00",
+    "name": "Kingsley Man",
+    "url": "https://www.pivotaltracker.com/s/projects/925064"
+  },
+  {
+    "date": "2013-10-03T04:41:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://alistapart.com/article/sustainable-web-design"
+  },
+  {
+    "date": "2013-10-03T05:21:36+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://vimeo.com/m/62085613"
+  },
+  {
+    "date": "2013-10-03T06:02:54+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://mediahint.com/install_chrome.html"
+  },
+  {
+    "date": "2013-10-03T09:34:17+00:00",
+    "name": "Kingsley Man",
+    "url": "https://docs.google.com/drawings/d/1ciMYso-ZrorBAPDAbdD70aVkTpEhY8Pm2tVxepZjGEc/edit"
+  },
+  {
+    "date": "2013-10-03T09:34:21+00:00",
+    "name": "Eddie Lau",
+    "url": "http://slides.html5rocks.com/#landing-slide"
+  },
+  {
+    "date": "2013-10-03T09:34:21+00:00",
+    "name": "Eddie Lau",
+    "url": "http://daneden.me/animate/"
+  },
+  {
+    "date": "2013-10-03T11:47:52+00:00",
+    "name": "Stephanie Siaw",
+    "url": "https://docs.google.com/drawings/d/1x8lmevVa5dhb1w1Hl4rzl9sMpdalu4nT6aCPn-PpG9o/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-03T11:58:57+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://www.quora.com/Computer-Programming/How-can-I-learn-programming-and-become-a-coder-from-knowing-nothing-about-programming"
+  },
+  {
+    "date": "2013-10-03T12:36:13+00:00",
+    "name": "Deepak Jayakumaran",
+    "url": "https://docs.google.com/drawings/d/1H2AzODn7KhLME-ddpFYIpfBZPbs0aHzDClcDOdttoIU/edit"
+  },
+  {
+    "date": "2013-10-03T23:22:49+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.youtube.com/watch?v=PDXEgBh0TF0"
+  },
+  {
+    "date": "2013-10-04T00:43:37+00:00",
+    "name": "Sophia Raji",
+    "url": "https://docs.google.com/file/d/0B5AAzCsgen6JQTcteFR3VXN1b00/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-04T00:51:44+00:00",
+    "name": "Sophia Raji",
+    "url": "https://docs.google.com/file/d/0B5AAzCsgen6Jbm9pN0kxU2dueGM/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-04T00:51:59+00:00",
+    "name": "Sophia Raji",
+    "url": "http://sudosoph.github.io/sophia_profile/"
+  },
+  {
+    "date": "2013-10-04T01:27:42+00:00",
+    "name": null,
+    "url": "http://pandodaily.com/2013/06/21/pandomonthly-san-francisco-with-github-ceo-tom-preston-werner-the-full-interview/"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.startupshk.com/hong-kongco-working-space-series-innovation-lab/"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://blogs.adobe.com/conversations/2013/10/important-customer-security-announcement.html?utm_source=buffer&utm_campaign=Buffer&utm_content=bufferd6c33&utm_medium=twitter"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://browsync.net/"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://braythwayt.com/2013/10/01/javascript-allonge-is-free.html"
+  },
+  {
+    "date": "2013-10-04T02:03:06+00:00",
+    "name": "Eddie Lau",
+    "url": "http://blog.jenniferdewalt.com/post/56319597560/im-learning-to-code-by-building-180-websites-in-180"
+  },
+  {
+    "date": "2013-10-04T02:34:10+00:00",
+    "name": "Deepak Jayakumaran",
+    "url": "http://www.lesliefranke.com/files/reference/csscheatsheet.html"
+  },
+  {
+    "date": "2013-10-04T02:34:21+00:00",
+    "name": "Deepak Jayakumaran",
+    "url": "http://media.smashingmagazine.com/wp-content/uploads/images/html5-cheat-sheet/html5-cheat-sheet.pdf"
+  },
+  {
+    "date": "2013-10-04T02:42:44+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://www.donielleberg.com/work"
+  },
+  {
+    "date": "2013-10-04T02:42:50+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://hiplink-june.herokuapp.com/"
+  },
+  {
+    "date": "2013-10-04T03:17:57+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.digitaltrends.com/mobile/wifi-see-through-walls/"
+  },
+  {
+    "date": "2013-10-04T03:18:49+00:00",
+    "name": "Eddie Lau",
+    "url": "http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/index10.html"
+  },
+  {
+    "date": "2013-10-04T03:18:55+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.creativebloq.com/css3/animation-with-css3-712437"
+  },
+  {
+    "date": "2013-10-04T03:36:13+00:00",
+    "name": "Julian Tung",
+    "url": "http://spyline.de/"
+  },
+  {
+    "date": "2013-10-04T03:38:18+00:00",
+    "name": "Stephanie Siaw",
+    "url": "https://code.google.com/p/normalize-css/"
+  },
+  {
+    "date": "2013-10-04T09:13:54+00:00",
+    "name": "Hyejin Yang",
+    "url": "https://leanpub.com/javascript-allonge/read"
+  },
+  {
+    "date": "2013-10-05T12:07:10+00:00",
+    "name": "Eddie Lau",
+    "url": "https://help.github.com/articles/user-organization-and-project-pages"
+  },
+  {
+    "date": "2013-10-06T17:05:12+00:00",
+    "name": "Stephanie Siaw",
+    "url": "https://docs.google.com/document/d/1SG9Qn66UDGbpvbW4YhSRULj0AzdCsKXepq6n9VX1ALY/edit?usp=sharing"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://internet-map.net/#8-92.41825792610769-147.76625288346753"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://blog.smartbear.com/programming/five-free-javascript-libraries-to-add-text-editing-to-your-web-application/"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.fastcocreate.com/3018853/infographic-what-beer-and-coffee-do-to-your-brain-and-which-makes-you-more-creative?partner=rss&utm_source=buffer&utm_medium=facebook&utm_campaign=Buffer&utm_content=buffere22eb"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.inside.com.tw/2013/10/04/blippex"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.gizmag.com/boston-dynamics-wildcat-quadruped-robot/29286/"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://mashable.com/2013/09/18/twitter-acquisitions/"
+  },
+  {
+    "date": "2013-10-07T06:25:44+00:00",
+    "name": "Bruno Wu",
+    "url": "http://us6.campaign-archive1.com/?u=25f28e4ec7ca666caa89a660a&id=3cd0c8b9c0&e=49d0e2da14"
+  },
+  {
+    "date": "2013-10-07T10:37:34+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.youtube.com/watch?v=f488uJAQgmw&feature=youtube_gdata_player"
+  },
+  {
+    "date": "2013-10-07T10:38:09+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.youtube.com/watch?v=jofNR_WkoCE&feature=youtube_gdata_player"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.quora.com/Silicon-Valley/What-do-people-in-Silicon-Valley-plan-to-do-once-they-hit-35-and-are-officially-over-the-hill?srid=hSk&share=1"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.codeavengers.com/"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://method.ac/"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://hackdesign.org/courses/"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "https://www.edx.org/course/mit/6-00-1x/introduction-computer-science/1122"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.browserswarm.com/"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://my.eoe.cn/sisuer/archive/3348.html("
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://appmaker.mozillalabs.com/designer"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://runnable.com/"
+  },
+  {
+    "date": "2013-10-08T03:33:43+00:00",
+    "name": "Sophia Raji",
+    "url": "http://www.contentedcoder.com/2012/09/bubble-sort-algorithm-in-javascript.html"
+  },
+  {
+    "date": "2013-10-08T04:19:57+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://docs.angularjs.org/tutorial"
+  },
+  {
+    "date": "2013-10-08T06:29:14+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://d3js.org/"
+  },
+  {
+    "date": "2013-10-08T06:29:14+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://connectedchina.reuters.com/"
+  },
+  {
+    "date": "2013-10-08T07:48:13+00:00",
+    "name": "Eddie Lau",
+    "url": "http://docs.angularjs.org/api/ng.$filter"
+  },
+  {
+    "date": "2013-10-08T07:49:15+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/angular/angular.js/wiki/Projects-using-AngularJS"
+  },
+  {
+    "date": "2013-10-08T11:40:29+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/ga-students/WDI_HK_1/tree/master/HKWDI_Project1"
+  },
+  {
+    "date": "2013-10-08T11:57:13+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/KarenZam/WDI_HK_1"
+  },
+  {
+    "date": "2013-10-08T11:59:30+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/ga-students/WDI_HK_1_Work/tree/master/homework_1"
+  },
+  {
+    "date": "2013-10-09T05:49:02+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://www.youtube.com/watch?v=Yn-oemgzlEU&feature=c4-overview-vl&list=PLfNe3nGQENtP3VCn1t1pybju9ffSPBohU"
+  },
+  {
+    "date": "2013-10-10T01:49:20+00:00",
+    "name": "Robyn Steinberg",
+    "url": "http://techdraft.hirebrite.com/app"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://nodeos.github.io/"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "https://sublimegit.net/"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/WhiteHouse/fortyfour/issues/3"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://railsrumble.com/"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://blog.bufferapp.com/the-habits-of-successful-people-they-start-before-they-feel-ready"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://37signals.com/remote"
+  },
+  {
+    "date": "2013-10-10T03:27:27+00:00",
+    "name": "Robyn Steinberg",
+    "url": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/"
+  },
+  {
+    "date": "2013-10-10T03:57:01+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/grevory/angular-local-storage"
+  },
+  {
+    "date": "2013-10-10T06:50:29+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://www.telegraph.co.uk/technology/google/10350564/Google-Hummingbird-algorithm-to-elevate-niche-websites.html"
+  },
+  {
+    "date": "2013-10-10T06:59:33+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.cogmed.com/research"
+  },
+  {
+    "date": "2013-10-10T08:46:57+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://docs.angularjs.org/guide/directive"
+  },
+  {
+    "date": "2013-10-10T09:56:23+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.1stwebdesigner.com/freebies/css-cheat-sheets-designers/"
+  },
+  {
+    "date": "2013-10-10T10:05:11+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://goo.gl/XsI3Dd"
+  }
+]
